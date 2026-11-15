@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Countdown</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="card">
+    <h1>Countdown</h1>
+    <input type="text" id="title" placeholder="Event name (optional)">
+    <input type="datetime-local" id="target">
+    <button id="start">Start</button>
+
+    <h2 id="eventName"></h2>
+    <div id="timer">
+      <div><span id="d">0</span><small>days</small></div>
+      <div><span id="h">0</span><small>hours</small></div>
+      <div><span id="m">0</span><small>min</small></div>
+      <div><span id="s">0</span><small>sec</small></div>
+    </div>
+    <p id="msg"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
